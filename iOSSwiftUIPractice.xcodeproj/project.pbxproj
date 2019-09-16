@@ -16,6 +16,7 @@
 		64DDE73B232F56170081A6E5 /* iOSSwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DDE73A232F56170081A6E5 /* iOSSwiftUIPracticeTests.swift */; };
 		64DDE746232F56180081A6E5 /* iOSSwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DDE745232F56180081A6E5 /* iOSSwiftUIPracticeUITests.swift */; };
 		64DDE754232F5EC70081A6E5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DDE753232F5EC70081A6E5 /* CircleImage.swift */; };
+		64DDE759232F60DD0081A6E5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DDE758232F60DD0081A6E5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		64DDE745232F56180081A6E5 /* iOSSwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		64DDE747232F56180081A6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DDE753232F5EC70081A6E5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		64DDE758232F60DD0081A6E5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				64DDE753232F5EC70081A6E5 /* CircleImage.swift */,
 				64DDE727232F56140081A6E5 /* ContentView.swift */,
+				64DDE758232F60DD0081A6E5 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				64DDE724232F56140081A6E5 /* AppDelegate.swift in Sources */,
 				64DDE754232F5EC70081A6E5 /* CircleImage.swift in Sources */,
+				64DDE759232F60DD0081A6E5 /* MapView.swift in Sources */,
 				64DDE726232F56140081A6E5 /* SceneDelegate.swift in Sources */,
 				64DDE728232F56140081A6E5 /* ContentView.swift in Sources */,
 			);
