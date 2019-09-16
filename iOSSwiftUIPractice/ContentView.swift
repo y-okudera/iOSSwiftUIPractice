@@ -20,11 +20,14 @@ struct ContentView: View {
                 .font(.subheadline)
                 .foregroundColor(.green)
                 
+                Spacer()
+                
                 Button("Button") {
                     print("Tapped button!!")
                 }
             }
         }
+        .padding()
     }
 }
 
