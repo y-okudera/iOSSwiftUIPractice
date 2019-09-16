@@ -15,9 +15,15 @@ struct ContentView: View {
             .font(.title)
             .foregroundColor(.accentColor)
             
-            Text("Using VStack.")
-            .font(.subheadline)
-            .foregroundColor(.green)
+            HStack {
+                Text("Using VStack.")
+                .font(.subheadline)
+                .foregroundColor(.green)
+                
+                Button("Button") {
+                    print("Tapped button!!")
+                }
+            }
         }
     }
 }
